@@ -1,7 +1,14 @@
 package com.exam.controller;
 
 import com.exam.entity.Item;
+import com.exam.entity.Order;
+import com.exam.entity.OrderDetail;
 import com.exam.entity.Product;
+import com.exam.model.ProductModel;
+import com.exam.util.HibernateUtil;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
@@ -11,7 +18,7 @@ import java.util.List;
 @SessionScoped
 @ManagedBean(name = "cartController")
 public class CartController {
-
+    private SessionFactory sessionFactory =  HibernateUtil.getSessionFactory();
     private List<Item> items;
 
     public CartController() {
@@ -58,5 +65,18 @@ public class CartController {
             }
         }
         return -1;
+    }
+    public String checkout(String name, String address, String phoneNumber) {
+
+        Order order = new Order();
+        order.setName(name);
+        order.setAddress(address);
+        order.setPhone(phoneNumber);
+
+        order.setTotalPrice(total());
+        ProductModel productModel = new ProductModel();
+        productModel.checkout(order);
+
+        return "index?faces-redirect=true";
     }
 }

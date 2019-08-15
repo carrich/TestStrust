@@ -7,21 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="064dbcc7-de57-4743-bc5b-604ea0e87bb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/OrderDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/controller/CartController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/entity/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/model/ProductModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/model/ProductModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/cart.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/cart.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/controller/CartController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/model/ProductModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/model/ProductModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/exam/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exam/controller/CartController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/exam/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exam/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/model/ProductModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exam/model/ProductModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/cart.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/cart.xhtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +240,7 @@
       <workItem from="1565838475373" duration="19000" />
       <workItem from="1565838559362" duration="5529000" />
       <workItem from="1565845276690" duration="10420000" />
-      <workItem from="1565881247876" duration="1060000" />
+      <workItem from="1565881247876" duration="4594000" />
     </task>
     <servers />
   </component>

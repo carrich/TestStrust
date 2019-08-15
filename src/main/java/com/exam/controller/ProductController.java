@@ -3,6 +3,8 @@ package com.exam.controller;
 
 import com.exam.entity.Product;
 import com.exam.model.ProductModel;
+import com.exam.util.HibernateUtil;
+import org.hibernate.SessionFactory;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
@@ -13,6 +15,7 @@ import java.util.List;
 @SessionScoped
 @ManagedBean(name = "productController")
 public class ProductController {
+
     private   String name = "";
     private   String address = "";
     private   String phoneNumber= "";
@@ -60,7 +63,11 @@ public class ProductController {
         return "index?faces-redirect=true";
     }
 
+    public String checkout() {
 
+
+        return "index?faces-redirect=true";
+    }
 
 
     }
