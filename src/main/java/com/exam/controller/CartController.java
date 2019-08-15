@@ -53,7 +53,7 @@ public class CartController {
 
     private int exists(Product product) {
         for (int i = 0; i < this.items.size(); i++) {
-            if (this.items.get(i).getProduct().getId() == product.getId()) {
+            if (this.items.get(i).getProduct().getName() == product.getName()) {
                 return i;
             }
         }

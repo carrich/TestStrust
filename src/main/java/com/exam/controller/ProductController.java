@@ -6,6 +6,8 @@ import com.exam.model.ProductModel;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @SessionScoped
@@ -39,24 +41,22 @@ public class ProductController {
         this.phoneNumber = phoneNumber;
     }
 
+    private  ArrayList<Product> products
+            = new ArrayList<Product>(Arrays.asList(
+            new Product("Product1", "Very nice ", 3000,"brand1"),
+            new Product("Product2", "Very nice ", 300,"brand2"),
+            new Product("Product3", "Very nice ", 2000,"brand3"),
+            new Product("Product4", "Very nice ", 4000,"brand4"),
+            new Product("Product5", "Very nice ", 1000,"brand5")
 
-   private List<Product> products;
-    public List<Product> getProducts() {
+    ));
+
+    public  ArrayList<Product> getProducts() {
         return products;
     }
 
-    public void setProducts(List<Product> products) {
-        this.products = products;
-    }
-
-    public ProductController() {
-        ProductModel productModel = new ProductModel();
-        this.products = productModel.findAll();
-    }
-
     public String index() {
-        ProductModel productModel = new ProductModel();
-        this.products = productModel.findAll();
+
         return "index?faces-redirect=true";
     }
 
