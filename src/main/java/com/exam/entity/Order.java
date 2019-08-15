@@ -1,8 +1,7 @@
 package com.exam.entity;
 
 import javax.persistence.*;
-import java.util.Calendar;
-import java.util.List;
+import java.util.*;
 
 @Entity
 @Table(name = "orders")
@@ -19,9 +18,15 @@ public class Order {
     private int status;
 
     @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER,mappedBy = "order")
-    private List<OrderDetail> orderDetails;
+    private Set<OrderDetail> orderDetails;
 
+    public Set<OrderDetail> getOrderDetails() {
+        return orderDetails;
+    }
 
+    public void setOrderDetails(Set<OrderDetail> orderDetails) {
+        this.orderDetails = orderDetails;
+    }
 
     public Order() {
         this.id = Calendar.getInstance().getTimeInMillis();

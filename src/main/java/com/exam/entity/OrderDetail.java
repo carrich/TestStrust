@@ -1,6 +1,7 @@
 package com.exam.entity;
 
 import javax.persistence.*;
+import java.util.Calendar;
 
 @Entity
 @Table(name = "orderDetails")
@@ -15,7 +16,20 @@ public class OrderDetail {
     @ManyToOne(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
     private Order order;
 
+
     public OrderDetail() {
+
+            this.id = Calendar.getInstance().getTimeInMillis();
+
+
+    }
+
+    public Order getOrder() {
+        return order;
+    }
+
+    public void setOrder(Order order) {
+        this.order = order;
     }
 
     public long getId() {

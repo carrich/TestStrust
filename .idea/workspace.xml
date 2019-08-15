@@ -7,22 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="064dbcc7-de57-4743-bc5b-604ea0e87bb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/OrderDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/controller/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/model/ProductModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/model/ProductModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/cart.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/cart.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/entity/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exam_jsf_war_exploded/WEB-INF/classes/com/exam/entity/OrderDetail.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/model/ProductModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/model/ProductModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/entity/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/OrderDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/exam/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exam/controller/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exam/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/model/ProductModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exam/model/ProductModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/entity/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/OrderDetail.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/cart.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/cart.xhtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -240,7 +234,8 @@
       <workItem from="1565838475373" duration="19000" />
       <workItem from="1565838559362" duration="5529000" />
       <workItem from="1565845276690" duration="10420000" />
-      <workItem from="1565881247876" duration="4594000" />
+      <workItem from="1565881247876" duration="4703000" />
+      <workItem from="1565888846141" duration="2525000" />
     </task>
     <servers />
   </component>
@@ -295,8 +290,30 @@
     <state width="1398" height="244" key="GridCell.Tab.2.left/2880.1800" />
     <state width="1398" height="244" key="GridCell.Tab.2.right" />
     <state width="1398" height="244" key="GridCell.Tab.2.right/2880.1800" />
+    <state width="1398" height="303" key="GridCell.Tab.3.bottom" />
+    <state width="1398" height="303" key="GridCell.Tab.3.bottom/2880.1800" />
+    <state width="1398" height="303" key="GridCell.Tab.3.center" />
+    <state width="1398" height="303" key="GridCell.Tab.3.center/2880.1800" />
+    <state width="1398" height="303" key="GridCell.Tab.3.left" />
+    <state width="1398" height="303" key="GridCell.Tab.3.left/2880.1800" />
+    <state width="1398" height="303" key="GridCell.Tab.3.right" />
+    <state width="1398" height="303" key="GridCell.Tab.3.right/2880.1800" />
     <state x="376" y="284" key="com.intellij.ide.util.TipDialog" />
     <state x="376" y="284" key="com.intellij.ide.util.TipDialog/2880.1800" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exam/controller/CartController.java</url>
+          <line>72</line>
+          <properties class="com.exam.controller.CartController" method="checkout">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
